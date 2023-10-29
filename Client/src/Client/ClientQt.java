@@ -42,13 +42,13 @@ public class ClientQt extends JFrame {
     }
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
 
         JFrame frame= new ClientQt("Maraicher en ligne");
         frame.setSize(1280, 720);
         frame.setMinimumSize(new Dimension(960, 540));
         frame.setVisible(true);
-
-
+        ClientController controller = new ClientController();
     }
 }
